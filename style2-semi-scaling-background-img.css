@@ -1,0 +1,19 @@
+.navbar-default{
+  margin-bottom: 0px;
+}
+
+#titleContent{
+  padding-top: 10%;
+  text-align: center;
+}
+
+#mural{
+  height: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url("../assets/ps3_controller.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
