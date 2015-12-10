@@ -20,6 +20,12 @@
   }
 
 /* JUMBOTRON-ISH AREA*/
+
+/* NOTE:
+  WITH THE FULL H1 READING "TYLERHARROLD.COM", IT WASN'T SIZING
+  PROPERLY ON IPHONE, I TRUNCATED IT TO "TYLER" FOR TESTING, BUT REALLY
+  IT SHOULD DYNAMICALLY ALTER THE AMOUNT OF EMS THE H1 IS
+*/
   #titleContent{
     padding-top: 5%;
     text-align: center;
@@ -52,6 +58,12 @@
 
   #bodyText p{
     color: black;
+  }
+
+  #bodyTextLinks ul{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   #bodyTextLinks ul li{
