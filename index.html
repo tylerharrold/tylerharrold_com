@@ -4,15 +4,49 @@
     <meta charset="utf-8">
     <title>Tyler Harrold</title>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
+
   <body>
-
     <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <!-- NAVBAR-HEADER SECTION -->
+  		      <div class="navbar-header">
+  			      <a class="navbar-brand" href="http://www.tylerharrold.com">Home</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"     data-target="#collapse-zone" aria-expanded="false">
+  				      <span class="sr-only">Toggle Navigation</span>
+  				      <span class="fa fa-bars"></span>
+  			      </button>
+  		      </div> <!-- NAVBAR-HEADER -->
 
-    </div>
+            <!-- COLLAPSABLE SECTION OF NABAR -->
+  		      <div class="collapse navbar-collapse" id="collapse-zone">
+        			<ul class="nav navbar-nav navbar-left">
+        				<li><a href="#">About</a></li>
+        				<li><a href="#">Projects</a></li>
+        				<li class="dropdown">
+        						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-aspopup="true" aria-expanded="false">Links
+                    <span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+        							<li><a href="#">GitHub</a></li>
+                    	<li><a href="#">LinkedIn</a></li>
+                    	<li><a href="#">Twitter</a></li>
+                    	<li role="separator" class="divider"></li>
+                    	<li><a href="#">Codecademy</a></li>
+                    	<li><a href="#">Steam Profile</a></li>
+        						</ul>
+        				</li> <!-- DROPDOWN BUTTON -->
+        			</ul>
+        			<ul class="nav navbar-nav navbar-right">
+        				<li><a href="#">Contact Me</a></li>
+        				<li><a href="http://www.tylerharrold.com/koko"><span class="fa fa-paw"></span> Koko's Page</a></li>
+        			</ul>
+        		</div>
+      	</div> <!-- CONTAINER -->
+    </div> <!-- NAVBAR -->
 
-
+    <!-- JUMBOTRON-ISH AREA -->
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -21,16 +55,35 @@
             <h3>The Personal Portfolio of Tyler Harrold</h3>
             <hr>
             <a href="#" class="btn btn-default btn-large">Button</a>
-            <div class="testVert">
-
-            </div>
           </div>
-
         </div>
       </div>
-
     </div>
 
-    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    <!-- BODY CONTENT -->
+    <div class="container" id="bodyContentPanel">
+      <div class="row">
+      	<div class="col-lg-12" id="bodyText">
+      		<p>The most merciful thing in the world, I think, is the inability of the human mind to correlate
+      		all its contents. We live on a placid island of ignorance, and it was not meant that we should voyage far.
+      		The sciences, each straining in its own direction, have hitherto harmed us little; but some day the piecing
+      		together of dissociated knowledge will open up such terrifying vistas of reality, and of our frightful
+      		position therein, that we shall either go mad from the revelation or flee from the light into
+      		the peace and safety of a new dark age.
+      		</p>
+      	</div>
+
+  	    <div class="col-lg-12" id="bodyTextLinks">
+      		<ul>
+      			<li><a href="#">Projects</a></li>
+      			<li><a href="#">Contact</a></li>
+      			<li><a href="#">GitHub</a></li>
+      		</ul>
+  	    </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
